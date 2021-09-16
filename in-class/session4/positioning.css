@@ -1,0 +1,41 @@
+body {
+    /* background-image: url("https://gifcities.org/assets/tomjerry.gif"); */
+}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+    background: lightpink;
+    margin: 1rem;
+}
+
+#box1 {
+    position: absolute;
+    background: gold;
+    left: 50px;
+    top: 100px;
+    z-index: 1;
+}
+
+#box2 {
+    position: absolute;
+    background: limegreen;
+    right: 10px;
+    top: 2000px;
+}
+
+#box3 {
+    position: absolute;
+    background: cornflowerblue;
+    z-index: 10;
+}
+
+#box4 {
+    background: orange;
+    z-index: 20;
+    position: fixed;
+    right: 10px;
+    top: 300px;
+    background-image: url("images/dolphin5.jpg");
+    background-size: cover;
+}
