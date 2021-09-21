@@ -1,0 +1,81 @@
+.pop-up-container-relative-positioning {
+    width: 300px;
+    height: 200px;
+    background: cornflowerblue;
+    padding: .25rem;
+}
+
+.top-bar {
+    position: relative;
+    padding: .25rem;
+}
+
+.text {
+    color: white;
+    font-family: Arial;
+}
+
+.close-x {
+    background: crimson;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 .125rem;
+
+    color: white;
+    font-family: Arial;
+    font-size: 1rem;
+}
+
+.inner-content {
+    background: beige;
+    height: 88%;
+    position: relative;
+}
+
+.close-icon {
+    width: 20%;
+    margin: 1rem;
+}
+
+.message {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ok {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 2rem;
+}
+
+
+.pop-up-container-margins-padding {
+    position: absolute;
+    bottom: 5rem;
+    left: 2rem;
+    background: cornflowerblue;
+    padding: .25rem;
+}
+
+.inner-container {
+    background: beige;
+    padding: 5rem;
+}
+
+.top-close-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* .error-image {
+    margin-left: -5rem;
+} */
+
+

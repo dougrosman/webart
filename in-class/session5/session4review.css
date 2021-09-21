@@ -1,0 +1,55 @@
+body {
+    height: 300vh;
+}
+
+.container-absolute {
+    background: purple;
+    width: 10rem;
+    height: 10rem;
+    color: white;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.container-fixed {
+    background: blue;
+    width: 10rem;
+    height: 10rem;
+    color: white;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+#cool-box {
+    width: 20rem;
+    height: 20rem;
+    background: magenta;
+    color: cyan;
+    font-size: 3rem;
+    background-image: url("//picsum.photos/200");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.border {
+    border: 2rem solid gold;
+}
+
+.capuchin {
+    width: 10rem;
+}
+
+#cat-video {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    object-fit: cover;
+
+}
