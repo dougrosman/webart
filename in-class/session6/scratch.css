@@ -1,0 +1,36 @@
+* {margin: 0; padding: 0;}
+
+html, body {
+    cursor: none;
+}
+
+body {
+    min-height: 100vh;
+}
+
+/* 
+p {
+    width: 200px;
+    height: 200px;
+    background: purple;
+  }
+  
+p:hover {
+    cursor: url(https://cur.cursors-4u.net/toons/too-7/too682.cur), auto;
+} */
+
+#cursor {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30vw;
+}
+
+.ocean {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    mix-blend-mode: hard-light;
+}
