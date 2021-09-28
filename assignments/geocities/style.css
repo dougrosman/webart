@@ -1,0 +1,59 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+    /* background-image: url(gifs/backflip.gif);
+    background-size: contain; */
+    /* background-image: url(gifs/blackhole_a1.gif);
+    background-size: contain; */
+    background: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    /* background: orange; */
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 80ch;
+    padding: 1rem;
+}
+
+.page-title {
+    text-align: center;
+    padding: 1rem;
+    font-size: 4rem;
+}
+
+.intro-text {
+    font-size: 3rem;
+}
+
+.column {
+    position: fixed;
+    height: 100vh;
+    width: 50vw;
+    max-width: 200px;
+    top: 0;
+    z-index: -1;
+    /* border: 2px solid red; */
+}
+
+.column img {
+    width: 100%;
+}
+
+.left {
+    left: 0;
+    background-image: url(gifs/blackhole_a1.gif);
+    background-size: contain;
+}
+.right {
+    right: 0;
+    background-image: url(gifs/backflip.gif);
+    background-size: contain;
+}
+
+.text {
+    font-size: 2rem;
+    margin: 40rem 0;
+}
