@@ -1,0 +1,137 @@
+* { margin: 0; padding: 0; }
+
+/* Space Grotesk */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+/* Press Start 2P */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Museo Moderno */
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400&display=swap');
+
+body {
+    background-image: url('media/starry-background.gif');
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: black;
+    height: 100vh;
+}
+
+main {
+    height: fit-content;
+    min-height: 50vh;
+    background: rgba(0,0,0,0.75);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px #2a3f68;
+    padding: 0.5%;
+}
+
+.under-construction {
+    margin-bottom: 50px;
+    position: absolute;
+    width: 800px;
+    top: 80px;
+}
+
+header {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: 'MuseoModerno', cursive;
+    text-align: center;
+    font-size: 52px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    
+    color: #ff2e39;
+    text-shadow: 0px 0px 10px #ff465e;
+}
+
+h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    color: white;
+    max-width: 60ch;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.testbox {
+    width: 100%;
+    height: 20px;
+    background-color: #FF0000;
+}
+
+
+
+
+
+
+.album-module {
+    opacity: 100%;
+    display: inline-block;
+    position: relative;
+    width: 31%;
+    height: 300px;
+    /* background-color: red; */
+    margin: 1%;
+    /* border: 1px solid #2a3f68; */
+    /* border-radius: 2px; */
+}
+
+.album-image {
+    position: relative;
+    margin-bottom: 5px;
+    border: 1px solid #2a3f688c;
+    border-radius: 2px;
+}
+
+.album-genre {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: #ff2e39;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 2px;
+
+}
+
+.album-text {
+    /* margin-left: 5px; */
+}
+
+.pingpong {
+    position: fixed;
+    margin: auto auto;
+    bottom: -3px;
+    width: 800px;
+}
